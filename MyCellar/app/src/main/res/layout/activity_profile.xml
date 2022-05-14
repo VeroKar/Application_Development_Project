@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#802525"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/wallpaper"
+        android:layout_width="401dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/title" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="296dp"
+        android:layout_height="44dp"
+        android:text="Welcome,"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <Button
+        android:id="@+id/tastedCollectionButton"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#670C0C"
+        android:text="TASTED COLLECTION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTextView" />
+
+    <Button
+        android:id="@+id/untastedCollectionButton"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:text="UNTASTED COLLECTION"
+        android:backgroundTint="#670C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tastedCollectionButton" />
+
+    <Button
+        android:id="@+id/wineSuggestionsButton"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:text="WINE SUGGESTIONS"
+        android:backgroundTint="#670C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/untastedCollectionButton" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:text="Show myCellar location"
+        android:backgroundTint="#670C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionsButton" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:backgroundTint="#670C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

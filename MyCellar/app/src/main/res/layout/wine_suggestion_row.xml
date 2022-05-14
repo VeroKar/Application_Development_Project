@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/wine_suggestions_row"
+    android:background="@color/wineListColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <ImageView
+        android:id="@+id/wineSuggestionImageView"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/wineSuggestionWineTitleTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text="Wine"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wineSuggestionWineTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/field"
+        android:gravity="center_vertical"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionWineTitleTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionWineryTitleTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="Winery"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionWineTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionWineryTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/field"
+        android:gravity="center_vertical"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionWineryTitleTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionLocationTitleTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="Location"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionWineryTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionRatingTitleTextView"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="Rating"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionLocationTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionLocationTextView"
+        android:layout_width="258dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/field"
+        android:gravity="center_vertical"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionImageView"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionLocationTitleTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionAverageTextView"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/field"
+        android:gravity="center_vertical"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/wineSuggestionAverageTitleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionAverageTitleTextView"
+        app:layout_constraintTop_toTopOf="@+id/wineSuggestionAverageTitleTextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/wineSuggestionReviewsTextView"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/field"
+        android:gravity="center_vertical"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/wineSuggestionReviewsTitleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toEndOf="@+id/wineSuggestionReviewsTitleTextView"
+        app:layout_constraintTop_toTopOf="@+id/wineSuggestionReviewsTitleTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/wineSuggestionAverageTitleTextView"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="Average:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionRatingTitleTextView" />
+
+    <TextView
+        android:id="@+id/wineSuggestionReviewsTitleTextView"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:text="Reviews:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionAverageTitleTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

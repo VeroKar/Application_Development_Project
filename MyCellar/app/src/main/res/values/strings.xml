@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyCellar</string>
+
+    <string-array name="tastedSortBy">
+        <item>Wine Name A -> Z</item>
+        <item>Wine Name Z -> A</item>
+        <item>Producer Name A -> Z</item>
+        <item>Producer Name Z -> A</item>
+        <item>Rating Low -> High</item>
+        <item>Rating High -> Low</item>
+    </string-array>
+
+    <string-array name="untastedSortBy">
+        <item>Wine Name A -> Z</item>
+        <item>Wine Name Z -> A</item>
+        <item>Wine Producer A -> Z</item>
+        <item>Wine Producer Z -> A</item>
+    </string-array>
+
+    <string-array name="filterType">
+        <item>Show All Wines</item>
+        <item>Show Red Wines</item>
+        <item>Show White Wines</item>
+    </string-array>
+
+    <string-array name="wineType">
+        <item>Red</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="wineRating">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864510171958",
+    "project_id": "authentication-75d42",
+    "storage_bucket": "authentication-75d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864510171958:android:5c7b8fc4722b3e673b3197",
+        "android_client_info": {
+          "package_name": "com.example.mycellar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864510171958-ovelgvmehsc3mbj0tml68613j7pb56oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUg3g6XpgRX9F38kw2TZoDcfhQCNyz5NY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864510171958-ovelgvmehsc3mbj0tml68613j7pb56oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

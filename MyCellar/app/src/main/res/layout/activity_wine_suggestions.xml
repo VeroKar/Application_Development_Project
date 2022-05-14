@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#802525"
+    tools:context=".WineSuggestionsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wineSuggestionsRecyclerView"
+        android:layout_width="411dp"
+        android:layout_height="604dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeSpinner" />
+
+    <TextView
+        android:id="@+id/wineSuggestionsTitleTextView"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:text="Wine Suggestions"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSuggestionsTitleTextView"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
